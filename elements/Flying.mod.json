@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Flying",
+    "icon": "wing.png",
+    "color": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "FlyingStart"
+    },
+    "onExpired": {
+      "name": "FlyingRevoke"
+    }
+  }
+}

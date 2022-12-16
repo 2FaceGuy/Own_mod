@@ -1,0 +1,20 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "10"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "own_mod:dark_powder"
+    }
+  },
+  "result": {
+    "item": "own_mod:hard_powder",
+    "count": 1
+  }
+}

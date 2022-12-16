@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "own_mod:block/ancient_brewer"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "own_mod:hard_powder"
+    }
+  ],
+  "result": {
+    "item": "own_mod:dark_charge",
+    "count": 1
+  }
+}

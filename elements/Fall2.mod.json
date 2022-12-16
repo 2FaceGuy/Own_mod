@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Falling",
+    "splashName": "Splash Potion of Falling",
+    "lingeringName": "Lingering Potion of Falling",
+    "arrowName": "Arrow of Falling",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Fall"
+        },
+        "duration": 1,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

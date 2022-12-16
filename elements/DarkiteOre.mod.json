@@ -1,0 +1,152 @@
+{
+  "_fv": 34,
+  "_type": "block",
+  "definition": {
+    "texture": "darkiteore",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "darkiteore",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Darkite Ore",
+    "specialInfo": [],
+    "hardness": 1.25,
+    "resistance": 12.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": "CUSTOM:Darkite"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": true,
+    "lightOpacity": 2,
+    "material": {
+      "value": "MISCELLANEOUS"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": true,
+    "emittedRedstonePower": {
+      "fixedValue": 3.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "flammability": 100,
+    "fireSpreadSpeed": 100,
+    "isLadder": false,
+    "slipperiness": 0.4,
+    "speedFactor": 0.8,
+    "jumpFactor": 0.9,
+    "reactionToPushing": "BLOCK",
+    "isNotColidable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "CHAIN"
+    },
+    "breakSound": {
+      "value": "block.sculk.break"
+    },
+    "fallSound": {
+      "value": "block.slime.fall"
+    },
+    "hitSound": {
+      "value": "block.anvil.hit"
+    },
+    "placeSound": {
+      "value": "block.amethyst_block.place"
+    },
+    "stepSound": {
+      "value": "block.nether_ore.step"
+    },
+    "luminance": 1,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SPELL_WITCH"
+    },
+    "particleSpawningShape": "Plane",
+    "particleSpawningRadious": 0.19999999999999998,
+    "particleAmount": 2,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "deep_dark"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.DEEPSLATE"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 28,
+    "frequencyOnChunk": 6,
+    "minGenerateHeight": 50,
+    "maxGenerateHeight": 70
+  }
+}

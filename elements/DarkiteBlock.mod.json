@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "dark",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkite"
+      },
+      {
+        "value": "CUSTOM:Darkite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkite"
+      },
+      {
+        "value": "CUSTOM:Darkite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockDarkite"
+    },
+    "name": "darkite_block",
+    "namespace": "mod"
+  }
+}

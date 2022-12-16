@@ -1,0 +1,19 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "own_mod:darkite"
+    },
+    {
+      "item": "own_mod:darkite"
+    },
+    {
+      "item": "own_mod:darkite"
+    }
+  ],
+  "result": {
+    "item": "own_mod:dark_powder",
+    "count": 1
+  }
+}

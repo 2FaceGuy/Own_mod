@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "own_mod:blocks/topblock",
+    "up": "own_mod:blocks/topblock",
+    "north": "own_mod:blocks/blockside",
+    "east": "own_mod:blocks/blockside",
+    "south": "own_mod:blocks/blockside",
+    "west": "own_mod:blocks/blockside",
+    "particle": "own_mod:blocks/topblock"
+  },
+  "render_type": "solid"
+}

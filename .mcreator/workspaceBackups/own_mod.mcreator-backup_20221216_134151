@@ -1,0 +1,647 @@
+{
+  "mod_elements": [
+    {
+      "name": "Explode",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConfusionDo",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion_do",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Confusion",
+      "type": "potioneffect",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion"
+    },
+    {
+      "name": "PotionConfusion",
+      "type": "potion",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_confusion"
+    },
+    {
+      "name": "FlyingStart",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_start",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyingRevoke",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_revoke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flying",
+      "type": "potioneffect",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying"
+    },
+    {
+      "name": "PotionFlying",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_flying"
+    },
+    {
+      "name": "SuctionDo",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suction_do",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Suction",
+      "type": "potioneffect",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suction"
+    },
+    {
+      "name": "PotionSuction",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_suction"
+    },
+    {
+      "name": "Explosion",
+      "type": "potioneffect",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion"
+    },
+    {
+      "name": "ExplosionDo",
+      "type": "potion",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_do"
+    },
+    {
+      "name": "Freezed",
+      "type": "overlay",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezed"
+    },
+    {
+      "name": "FreezeDo",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_do",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Freeze",
+      "type": "potioneffect",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze"
+    },
+    {
+      "name": "FreezedDisplay",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezed_display",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkiteOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkite_ore"
+    },
+    {
+      "name": "Darkite",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkite"
+    },
+    {
+      "name": "BreakExplode",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockDarkite",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_darkite"
+    },
+    {
+      "name": "DarkPowder",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_powder"
+    },
+    {
+      "name": "DarkiteBlock",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkite_block"
+    },
+    {
+      "name": "FallDo",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_do",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fall",
+      "type": "potioneffect",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall"
+    },
+    {
+      "name": "FallPotion",
+      "type": "potion",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_potion"
+    },
+    {
+      "name": "PotionFreeze",
+      "type": "potion",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_freeze"
+    },
+    {
+      "name": "Darkpowdercraft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkpowdercraft"
+    },
+    {
+      "name": "DarkRod",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_rod"
+    },
+    {
+      "name": "DarkRodCraft",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dark_rod_craft"
+    },
+    {
+      "name": "HardPowder",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_powder"
+    },
+    {
+      "name": "HardPowderCraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hard_powder_craft"
+    },
+    {
+      "name": "HardPowderCraft2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hard_powder_craft_2"
+    },
+    {
+      "name": "DarkCharge",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_charge"
+    },
+    {
+      "name": "DarkChargeCraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_charge_craft"
+    },
+    {
+      "name": "AncientBrewer",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_brewer"
+    },
+    {
+      "name": "Brewer",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewer"
+    },
+    {
+      "name": "Brew",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brew",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Suction2",
+      "type": "potion",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suction_2"
+    },
+    {
+      "name": "Suction3",
+      "type": "potion",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suction_3"
+    },
+    {
+      "name": "Explosion2",
+      "type": "potion",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_2"
+    },
+    {
+      "name": "Flying2",
+      "type": "potion",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_2"
+    },
+    {
+      "name": "Flying3",
+      "type": "potion",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_3"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "slot1",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot2",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot3",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot4",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot5",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot6",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot7",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot8",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot9",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "out",
+      "type": "itemstack",
+      "scope": "map",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.own_mod.dark_charge": "Dark Charge",
+      "item.minecraft.tipped_arrow.effect.potion_flying": "Arrow of Flying",
+      "item.minecraft.lingering_potion.effect.explosion_2": "Lingering Potion of Explosion",
+      "item.minecraft.splash_potion.effect.suction_2": "Splash Potion of Suction",
+      "item.minecraft.splash_potion.effect.suction_3": "Splash Potion of Suction",
+      "item.minecraft.splash_potion.effect.fall_potion": "Splash Potion of Falling",
+      "effect.own_mod.flying": "Flying",
+      "item.minecraft.splash_potion.effect.potion_freeze": "Splash Potion of Freezing",
+      "item.minecraft.tipped_arrow.effect.suction_3": "Arrow of Suction",
+      "item.own_mod.dark_powder": "Dark Powder",
+      "item.own_mod.darkite": "Darkite",
+      "item.minecraft.potion.effect.explosion_2": "Potion of Explosion",
+      "item.minecraft.lingering_potion.effect.flying_2": "Lingering Potion of Flying",
+      "effect.own_mod.confusion": "Confusion",
+      "item.minecraft.lingering_potion.effect.flying_3": "Lingering Potion of Flying",
+      "item.minecraft.lingering_potion.effect.potion_suction": "Lingering Potion of Suction",
+      "item.minecraft.potion.effect.explosion_do": "Potion of Explosion",
+      "item.minecraft.tipped_arrow.effect.suction_2": "Arrow of Suction",
+      "item.own_mod.hard_powder": "Hardened Dark Powder",
+      "item.minecraft.lingering_potion.effect.potion_freeze": "Lingering Potion of Freezing",
+      "item.minecraft.lingering_potion.effect.explosion_do": "Lingering Potion of Explosion",
+      "block.own_mod.darkite_ore": "Darkite Ore",
+      "item.minecraft.tipped_arrow.effect.potion_freeze": "Arrow of Freezing",
+      "item.minecraft.tipped_arrow.effect.explosion_do": "Arrow of Explosion",
+      "item.minecraft.lingering_potion.effect.fall_potion": "Lingering Potion of Falling",
+      "block.own_mod.ancient_brewer": "Ancient Brewer",
+      "item.minecraft.tipped_arrow.effect.potion_confusion": "Arrow of Confusion",
+      "item.minecraft.splash_potion.effect.potion_confusion": "Splash Potion of Confusion",
+      "item.minecraft.splash_potion.effect.explosion_2": "Splash Potion of Explosion",
+      "item.minecraft.splash_potion.effect.potion_suction": "Splash Potion of Suction",
+      "effect.own_mod.suction": "Suction",
+      "effect.own_mod.freeze": "Frozen",
+      "item.minecraft.lingering_potion.effect.potion_flying": "Lingering Potion of Flying",
+      "item.own_mod.dark_rod": "Dark Rod",
+      "item.minecraft.potion.effect.potion_confusion": "Potion of Confusion",
+      "effect.own_mod.explosion": "Explode",
+      "item.minecraft.potion.effect.potion_freeze": "Potion of Freezing",
+      "item.minecraft.potion.effect.fall_potion": "Potion of Falling",
+      "item.minecraft.tipped_arrow.effect.explosion_2": "Arrow of Explosion",
+      "item.minecraft.potion.effect.potion_suction": "Potion of Suction",
+      "item.minecraft.tipped_arrow.effect.potion_suction": "Arrow of Suction",
+      "item.minecraft.tipped_arrow.effect.flying_3": "Arrow of Flying",
+      "item.minecraft.tipped_arrow.effect.fall_potion": "Arrow of Falling",
+      "item.minecraft.potion.effect.potion_flying": "Potion of Flying",
+      "item.minecraft.tipped_arrow.effect.flying_2": "Arrow of Flying",
+      "effect.own_mod.fall": "Falling",
+      "item.minecraft.lingering_potion.effect.suction_2": "Lingering Potion of Suction",
+      "item.minecraft.splash_potion.effect.explosion_do": "Splash Potion of Explosion",
+      "item.minecraft.lingering_potion.effect.suction_3": "Lingering Potion of Suction",
+      "item.minecraft.potion.effect.suction_2": "Potion of Suction",
+      "item.minecraft.splash_potion.effect.flying_2": "Splash Potion of Flying",
+      "item.minecraft.potion.effect.suction_3": "Potion of Suction",
+      "item.minecraft.splash_potion.effect.flying_3": "Splash Potion of Flying",
+      "item.minecraft.lingering_potion.effect.potion_confusion": "Lingering Potion of Confusion",
+      "item.minecraft.potion.effect.flying_2": "Potion of Flying",
+      "item.minecraft.splash_potion.effect.potion_flying": "Splash Potion of Flying",
+      "item.minecraft.potion.effect.flying_3": "Potion of Flying",
+      "block.own_mod.block_darkite": "Block Darkite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "own_mod",
+    "modName": "Own Mod",
+    "version": "1.0.0",
+    "author": "lojoteka06, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "ownmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

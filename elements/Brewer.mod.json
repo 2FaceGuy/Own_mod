@@ -1,0 +1,171 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16724788,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Brew"
+          },
+          "onTakenFromSlot": {
+            "name": "Brew"
+          },
+          "onStackTransfer": {
+            "name": "Brew"
+          },
+          "name": "Slot #0",
+          "x": 153,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "outline2powder.png",
+          "use1Xscale": false,
+          "name": "outline2powder.png",
+          "x": 154,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ancient Brewer",
+          "color": {
+            "value": -16751002,
+            "falpha": 0.0
+          },
+          "name": "Ancient Brewer",
+          "x": 175,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "plus.png",
+          "use1Xscale": false,
+          "name": "plus.png",
+          "x": 175,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16764109,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Brew"
+          },
+          "onTakenFromSlot": {
+            "name": "Brew"
+          },
+          "onStackTransfer": {
+            "name": "Brew"
+          },
+          "name": "Slot #1",
+          "x": 195,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottleout.png",
+          "use1Xscale": false,
+          "name": "bottleout.png",
+          "x": 175,
+          "y": 94
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 222,
+          "y": 83
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -10053121,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Brew"
+          },
+          "onTakenFromSlot": {
+            "name": "Brew"
+          },
+          "onStackTransfer": {
+            "name": "Brew"
+          },
+          "name": "Slot #2",
+          "x": 174,
+          "y": 93
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -6684673,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 249,
+          "y": 83
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

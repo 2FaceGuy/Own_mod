@@ -1,0 +1,26 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "own_mod:darkite"
+    },
+    "1": {
+      "item": "own_mod:darkite"
+    },
+    "2": {
+      "item": "own_mod:darkite"
+    },
+    "3": {
+      "item": "own_mod:darkite"
+    }
+  },
+  "result": {
+    "item": "own_mod:block_darkite",
+    "count": 1
+  }
+}

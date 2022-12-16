@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Suction",
+    "splashName": "Splash Potion of Suction",
+    "lingeringName": "Lingering Potion of Suction",
+    "arrowName": "Arrow of Suction",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Suction"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
