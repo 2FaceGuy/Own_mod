@@ -465,7 +465,12 @@
       "locked_code": false,
       "registry_name": "brew",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
