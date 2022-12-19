@@ -220,6 +220,18 @@
           {
             "name": "amplifier",
             "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           }
         ]
       }
@@ -453,7 +465,12 @@
       "locked_code": false,
       "registry_name": "brew",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -495,71 +512,103 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flying_3"
+    },
+    {
+      "name": "OldCoords",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_coords",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Freeze2",
+      "type": "potion",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_2"
+    },
+    {
+      "name": "Freeze3",
+      "type": "potion",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_3"
+    },
+    {
+      "name": "Freeze4",
+      "type": "potion",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_4"
+    },
+    {
+      "name": "Confusion2",
+      "type": "potion",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion_2"
+    },
+    {
+      "name": "Confusion3",
+      "type": "potion",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion_3"
+    },
+    {
+      "name": "Confusion4",
+      "type": "potion",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confusion_4"
+    },
+    {
+      "name": "Fall2",
+      "type": "potion",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_2"
+    },
+    {
+      "name": "Fall3",
+      "type": "potion",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_3"
     }
   ],
   "variable_elements": [
     {
-      "name": "slot1",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot2",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot3",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot4",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot5",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot6",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot7",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot8",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "slot9",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "out",
-      "type": "itemstack",
-      "scope": "map",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "old_X",
+      "name": "old_Z",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -567,22 +616,35 @@
     {
       "name": "old_Y",
       "type": "number",
-      "scope": "map",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "old_X",
+      "type": "number",
+      "scope": "player_persistent",
       "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecraft.potion.effect.freeze_2": "Potion of Freezing",
       "item.own_mod.dark_charge": "Dark Charge",
+      "item.minecraft.potion.effect.freeze_3": "Potion of Freezing",
       "item.minecraft.tipped_arrow.effect.potion_flying": "Arrow of Flying",
+      "item.minecraft.potion.effect.freeze_4": "Potion of Freezing",
       "item.minecraft.lingering_potion.effect.explosion_2": "Lingering Potion of Explosion",
+      "item.minecraft.tipped_arrow.effect.fall_2": "Arrow of Falling",
       "item.minecraft.splash_potion.effect.suction_2": "Splash Potion of Suction",
+      "item.minecraft.tipped_arrow.effect.fall_3": "Arrow of Falling",
       "item.minecraft.splash_potion.effect.suction_3": "Splash Potion of Suction",
       "item.minecraft.splash_potion.effect.fall_potion": "Splash Potion of Falling",
       "effect.own_mod.flying": "Flying",
       "item.minecraft.splash_potion.effect.potion_freeze": "Splash Potion of Freezing",
       "item.minecraft.tipped_arrow.effect.suction_3": "Arrow of Suction",
+      "item.minecraft.potion.effect.fall_2": "Potion of Falling",
+      "item.minecraft.potion.effect.fall_3": "Potion of Falling",
       "item.own_mod.dark_powder": "Dark Powder",
       "item.own_mod.darkite": "Darkite",
       "item.minecraft.potion.effect.explosion_2": "Potion of Explosion",
@@ -594,24 +656,44 @@
       "item.minecraft.tipped_arrow.effect.suction_2": "Arrow of Suction",
       "item.own_mod.hard_powder": "Hardened Dark Powder",
       "item.minecraft.lingering_potion.effect.potion_freeze": "Lingering Potion of Freezing",
+      "item.minecraft.lingering_potion.effect.confusion_3": "Lingering Potion of Confusion",
+      "item.minecraft.lingering_potion.effect.confusion_4": "Lingering Potion of Confusion",
       "item.minecraft.lingering_potion.effect.explosion_do": "Lingering Potion of Explosion",
+      "item.minecraft.lingering_potion.effect.freeze_3": "Lingering Potion of Freezing",
+      "item.minecraft.lingering_potion.effect.freeze_2": "Lingering Potion of Freezing",
+      "item.minecraft.lingering_potion.effect.confusion_2": "Lingering Potion of Confusion",
       "block.own_mod.darkite_ore": "Darkite Ore",
+      "item.minecraft.lingering_potion.effect.freeze_4": "Lingering Potion of Freezing",
+      "item.minecraft.splash_potion.effect.confusion_4": "Splash Potion of Confusion",
       "item.minecraft.tipped_arrow.effect.potion_freeze": "Arrow of Freezing",
+      "item.minecraft.splash_potion.effect.confusion_3": "Splash Potion of Confusion",
       "item.minecraft.tipped_arrow.effect.explosion_do": "Arrow of Explosion",
       "item.minecraft.lingering_potion.effect.fall_potion": "Lingering Potion of Falling",
       "block.own_mod.ancient_brewer": "Ancient Brewer",
+      "item.minecraft.splash_potion.effect.confusion_2": "Splash Potion of Confusion",
       "item.minecraft.tipped_arrow.effect.potion_confusion": "Arrow of Confusion",
       "item.minecraft.splash_potion.effect.potion_confusion": "Splash Potion of Confusion",
       "item.minecraft.splash_potion.effect.explosion_2": "Splash Potion of Explosion",
+      "item.minecraft.splash_potion.effect.freeze_4": "Splash Potion of Freezing",
       "item.minecraft.splash_potion.effect.potion_suction": "Splash Potion of Suction",
+      "item.minecraft.splash_potion.effect.freeze_2": "Splash Potion of Freezing",
       "effect.own_mod.suction": "Suction",
+      "item.minecraft.splash_potion.effect.freeze_3": "Splash Potion of Freezing",
       "effect.own_mod.freeze": "Frozen",
       "item.minecraft.lingering_potion.effect.potion_flying": "Lingering Potion of Flying",
       "item.own_mod.dark_rod": "Dark Rod",
       "item.minecraft.potion.effect.potion_confusion": "Potion of Confusion",
       "effect.own_mod.explosion": "Explode",
+      "item.minecraft.potion.effect.confusion_2": "Potion of Confusion",
+      "item.minecraft.splash_potion.effect.fall_2": "Splash Potion of Falling",
+      "item.minecraft.splash_potion.effect.fall_3": "Splash Potion of Falling",
+      "item.minecraft.potion.effect.confusion_4": "Potion of Confusion",
+      "item.minecraft.potion.effect.confusion_3": "Potion of Confusion",
       "item.minecraft.potion.effect.potion_freeze": "Potion of Freezing",
       "item.minecraft.potion.effect.fall_potion": "Potion of Falling",
+      "item.minecraft.tipped_arrow.effect.freeze_4": "Arrow of Freezing",
+      "item.minecraft.tipped_arrow.effect.freeze_3": "Arrow of Freezing",
+      "item.minecraft.tipped_arrow.effect.freeze_2": "Arrow of Freezing",
       "item.minecraft.tipped_arrow.effect.explosion_2": "Arrow of Explosion",
       "item.minecraft.potion.effect.potion_suction": "Potion of Suction",
       "item.minecraft.tipped_arrow.effect.potion_suction": "Arrow of Suction",
@@ -631,7 +713,12 @@
       "item.minecraft.potion.effect.flying_2": "Potion of Flying",
       "item.minecraft.splash_potion.effect.potion_flying": "Splash Potion of Flying",
       "item.minecraft.potion.effect.flying_3": "Potion of Flying",
-      "block.own_mod.block_darkite": "Block Darkite"
+      "block.own_mod.block_darkite": "Block Darkite",
+      "item.minecraft.tipped_arrow.effect.confusion_4": "Arrow of Confusion",
+      "item.minecraft.lingering_potion.effect.fall_2": "Lingering Potion of Falling",
+      "item.minecraft.lingering_potion.effect.fall_3": "Lingering Potion of Falling",
+      "item.minecraft.tipped_arrow.effect.confusion_2": "Arrow of Confusion",
+      "item.minecraft.tipped_arrow.effect.confusion_3": "Arrow of Confusion"
     }
   },
   "foldersRoot": {
