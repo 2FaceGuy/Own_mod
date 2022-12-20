@@ -453,7 +453,7 @@
       "name": "Brewer",
       "type": "gui",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "brewer"
     },
@@ -465,7 +465,12 @@
       "locked_code": false,
       "registry_name": "brew",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
